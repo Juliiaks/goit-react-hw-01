@@ -1,0 +1,32 @@
+.table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.tableTr{
+    border: 2px solid black;
+    width: 210px;
+    height: 33px;
+    text-transform: capitalize;
+    
+
+}
+
+.tableHead{
+    background-color: #242222;
+    color: white;
+    font-weight: 700;
+
+}
+
+.tableLine:nth-child(odd){
+    background-color: white;
+    font-weight: 500;
+    color: black;
+}
+
+.tableLine:nth-child(even) {
+background-color: #C5C6CF;
+font-weight: 500;
+    color: black;
+}
